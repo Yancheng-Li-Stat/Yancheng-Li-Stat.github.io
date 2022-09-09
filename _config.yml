@@ -112,10 +112,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "yli778@wisc.edu"
+      url: "yli778@wisc.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://yancheng-li-stat.github.io"
+      url: "https://yancheng-li-stat.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
