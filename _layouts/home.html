@@ -1,22 +1,138 @@
 ---
-layout: archive
+ layout: archive
 ---
 
-{{ content }}
+ {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+ <html>
+ <head>
+ <style>
+ p.xsmall {
+     line-height: 1.55;
+     font-size: 9.5pt;
+     margin-left: 40px;
+ }
 
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+ p.small {
+     line-height: 1.55;
+     font-size: 11pt;
+     margin-left: 40px;
+ }
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
+ ul.small {
+     line-height: 1.55;
+     font-size: 11pt;
+ }
 
-{% include paginator.html %}
+ p.small2 {
+     line-height: 2.00;
+     font-size: 11.5pt;
+     margin-left: 40px;
+ }
+
+ p.medium {
+     line-height: 1.55;
+     font-size: 12.5pt;
+     margin-left: 40px;
+ }
+
+ p.big {
+     line-height: 1.55;
+ }
+
+ p.noindent {
+     line-height: 1.55;
+     font-size: 12pt;
+ }
+
+
+ </style>
+ </head>
+ <body>
+
+
+
+ <p class="noindent">
+
+   Hi! I am a second-year PhD student in Statistics at the University of Wisconsin-Madison. My research interest is in Optimization theory. This website is currently served for Causal Inference course project (Stat 888).
+<br><br>
+  Previously, I graduated from the Johns Hopkins University with B.S. in Physics and M.A. in Mathematics in 2021. 
+<br><br>
+  Before focus on Statistics, I was exposed to experimental physics.
+
+ <p>
+
+
+ <h3 style="font-weight: 500">Publications</h3>
+ <hr>
+
+<p class="small">
+    <span style="font-weight:800"> <a href="https://aip.scitation.org/doi/full/10.1063/5.0008988"
+            style="font-size: 12pt; color: #285095; text-decoration: none"> Bipolar spin Hall nano-oscillators </a> <br> </span>
+    <span style="line-height:170%"> T. Hache, <b>Y. Li<\b>, T.Weinhold, B. Scheumann, F. J. T. Gonçalves, O. Hellwig, J. Fassbender, and H. Schultheiss</span>
+    <br>
+    <span style="line-height:170%"> <i> Appl. Phys. Lett. 2020 </i> </span>
+    <br>
+    [<a href="https://arxiv.org/abs/2003.11776" style="color: #285095; text-decoration: none">paper</a>]
+
+
+  
+
+ <!-- <h3 style="font-weight: 500">Presentations</h3>
+ <hr>
+ <ul class="small">
+<li> Presentation on <i> Multilingual Jointly Trained Acoustic and Word Embeddings in EMNLP 2020 SIGTYP workshop (virtual) [<a href="https://slideslive.com/38939801/multilingual-jointly-trained-acoustic-and-written-word-embeddings" style="color: #285095; text-decoration: none">video</a>] </li>
+ <li> Presentation on <i> Multilingual Jointly Trained Acoustic and Word Embeddings in INTERSPEECH 2020 (virtual) [<a href="http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=273&id=528" style="color: #285095; text-decoration: none">video</a>]</li>
+ </ul> -->
+
+ <!-- <h3 style="font-weight: 500">Experience</h3>
+ <hr>
+
+  <ul class="small">
+<li> Research Intern, Tencent AI Lab (Seattle), Bellevue, WA, summer 2022</li>
+ <li> Research Assistant, Toyota Technological Institute at Chicago, Chicago, IL, 2019 - 2021</li>
+ <li> Machine Learning Engineer Intern, Learnable.ai, Boston, MA, summer 2019</li>
+ <li> Research Intern, Argonne National Laboratory, Lemont, IL, summer 2018</li>
+</ul> -->
+
+ <!-- <h3 style="font-weight: 500">Teaching</h3>
+ <hr>
+ <ul class="small">
+ <li>Autumn 2018, Winter 2019. <i>Course Assistant</i>, MATH 20000: Mathematical Methods for Physical Science I<br></li>
+ <li>Autumn 2019, Winter 2020. <i>Course Assistant</i>, MATH 20100: Mathematical Methods for Physical Science II<br></li>
+ <li>Spring 2019. <i>Course Assistant</i>, MATH 20250: Abstract Linear Algebra<br></li>
+ </ul> -->
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--
+ <h3 style="font-weight: 500">Relevant Coursework</h3>
+ <hr>
+ <p class="xsmall">
+ <span style="line-height:300%"> <u> At the University of xxx (2017-2021) </u> </span>
+ <br>
+ CMSC 27230 - Honors Theory of Algorithms<br>
+ CMSC 25025 / STAT 37601 - Machine Learning and Large-Scale Data Analysis (grad level, Lafferty)<br>
+ CMSC 35400 / STAT 37710 - Machine Learning (grad level, Kondor)<br>
+ TTIC 31020 - Statistical Machine Learning (grad level, Shakhnarovich)<br>
+ TTIC 31190 - Natural Language Processing (grad level, Gimpel)<br>
+ TTIC 41000 - Spectral Techniques (grad level, Stratos)<br>
+ MATH 20300-20500 - Accelerated Real Analysis I, II, III<br>
+ MATH 20250, 25400-25500 - Abstract Linear Algebra; Abstract Algebra I, II<br>
+ BIOS 10602-10603 - Multiscale Modeling of Biological Systems I, II (computational biology)
+  -->
+
+
+
+
+
+ <br><br><br><br><br>
