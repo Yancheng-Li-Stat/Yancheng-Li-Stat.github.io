@@ -16,7 +16,6 @@ The study is based on this [Paper](https://arxiv.org/pdf/2103.04472.pdf).
 I want to $e^x$
 
 \usepackage{tikz} 
-\begin{document} 
 \begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
 \node[main] (1) {$x_1$}; 
 \node[main] (2) [above right of=1] {$x_2$}; 
@@ -34,6 +33,5 @@ I want to $e^x$
 \draw[->] (5) to [out=315, in=315, looseness=2.5] (3); 
 \draw[->] (6) -- node[midway, above right, sloped, pos=1] {+1} (4); 
 \end{tikzpicture} 
-\end{document}
 
 social mobility deaths due to Covid-19
