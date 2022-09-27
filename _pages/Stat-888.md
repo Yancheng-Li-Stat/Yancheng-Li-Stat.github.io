@@ -13,6 +13,6 @@ The study is based on this [Paper](https://arxiv.org/pdf/2103.04472.pdf).
 
 ## A Causal Question to Study
 
-I want to $$e^x$$
+I want to $e^x$
 
 social mobility deaths due to Covid-19
