@@ -26,7 +26,7 @@ $Y_t:\ \text{the number of deaths due to Covid-19 on week t}$
 Note that we cannot simply perform a linear regression of $Y_t$ on $A_t$, because $Y_t$ are both confounding and mediating variables: 
 $Y_{t-1}$ can have an effect on both $A_t$ and $Y_t$, while also being affected by $A_{t-1}$. As a result, we introduce a new unobserved random variable $I_t$ as a  mediator. The causal effect of social mobility we wish to study can be defined as
 
-$\varphi(a_1,\cdots,a_T)=E[Y_t(a_1,\cdots,a_T)]$
+$\varphi_t(a_1,\cdots,a_T)=E[Y_t(a_1,\cdots,a_T)]$
 
 The relationship (or the working hypotheses) of $(A_t,I_t,Y_t)$ is given by the following directed acyclic graph:
 ![plot](./Graph.png)
