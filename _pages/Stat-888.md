@@ -12,7 +12,7 @@ The study is based on this [Paper](https://arxiv.org/pdf/2103.04472.pdf).
 
 ## Model Identification (Homework 2)
 
-$\varphi(\bar{a}_t)=\int\cdots\int E$
+$\psi(\bar{a}_t)=\int\cdots\int E$
 
 ## A Causal Question to Study (Homework 1)
 
