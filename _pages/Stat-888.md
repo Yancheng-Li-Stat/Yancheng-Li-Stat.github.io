@@ -10,9 +10,9 @@ font-size: 12pt
 
 The study is based on this [Paper](https://arxiv.org/pdf/2103.04472.pdf).
 
-## Model Identification (Homework 2)
+## [Identification of the Causal Effect (Homework 3)](https://github.com/Yancheng-Li-Stat/Yancheng-Li-Stat.github.io/blob/master/Stat-888/Identification.pdf)
 
-## [A Causal Question to Study (Homework 1)](https://github.com/Yancheng-Li-Stat/Yancheng-Li-Stat.github.io/blob/master/Stat-888/HW1.pdf)
+## [A Causal Question to Study (Homework 1)]([https://github.com/Yancheng-Li-Stat/Yancheng-Li-Stat.github.io/blob/master/Stat-888/HW1.pdf](https://github.com/Yancheng-Li-Stat/Yancheng-Li-Stat.github.io/blob/master/Stat-888/CausalQuestion.pdf))
 
 Directed acyclic graph:
 ![plot](./Graph.png)
