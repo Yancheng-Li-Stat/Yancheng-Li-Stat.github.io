@@ -10,6 +10,8 @@ font-size: 12pt
 
 The study is based on this [Paper](https://arxiv.org/pdf/2103.04472.pdf).
 
+## [Conclusion (Homework 6)](https://github.com/Yancheng-Li-Stat/Yancheng-Li-Stat.github.io/blob/master/Stat-888/Conclusion.pdf)
+
 ## [Sensitivity Analysis (Homework 5)](https://github.com/Yancheng-Li-Stat/Yancheng-Li-Stat.github.io/blob/master/Stat-888/Sensitivity%20Analysis.pdf)
 
 ## [Estimation of the Causal Estimand (Homework 4)](https://github.com/Yancheng-Li-Stat/Yancheng-Li-Stat.github.io/blob/master/Stat-888/Estimation.pdf)
